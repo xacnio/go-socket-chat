@@ -43,7 +43,6 @@ func ListenChannel() {
 				Sw.Mu.Unlock()
 			}
 		}
-		fmt.Println(Sw.Clients)
 	}
 }
 
